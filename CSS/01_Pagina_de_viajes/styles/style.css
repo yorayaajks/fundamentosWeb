@@ -1,0 +1,15 @@
+/* Estilos de pagina de viajes */
+*{
+    outline: solid black;
+}
+
+body { /* Seleccion de body */
+    font-family: Arial, Helvetica, sans-serif; /* Cambia tipografia */
+    margin: 0; /* Elimina todo  el margen predefinido */
+    padding: 0; /* Elimina todo el relleno de los elementos */
+}
+/* Acá viene el estilo de una clase container */
+.container {
+    width: 80%; /* Establece el ancho del contenedor en un 80% */
+    margin: 0 auto; /* Centra horizontalmente elemento */ 
+}
