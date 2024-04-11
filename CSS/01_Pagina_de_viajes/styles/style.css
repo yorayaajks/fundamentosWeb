@@ -13,3 +13,22 @@ body { /* Seleccion de body */
     width: 80%; /* Establece el ancho del contenedor en un 80% */
     margin: 0 auto; /* Centra horizontalmente elemento */ 
 }
+/* Estilo de encabezado */
+header {
+    background-color: #333; /* Establece el color de fondo */
+    color: beige; /* Establece el color del texto */
+    padding: 20px 0; /* Añade relleno superior e inferior */
+}
+header h1 {
+    margin: 0; /* Elimina todo  el margen predefinido del título */
+}
+/* Estilo de elemento de lista */
+nav ul li {
+    display: inline; /* Alinea lo selementos */
+    margin-right: 20px; /* Margen hacia la derecha */
+}
+/* Estilo a elementos de vínculo ancla de navegacion */
+nav ul li a {
+    color: beige; /* Color a elemento anchor */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+}
