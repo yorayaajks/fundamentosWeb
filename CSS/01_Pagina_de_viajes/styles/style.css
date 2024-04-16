@@ -1,9 +1,9 @@
-/* Estilos de pagina de viajes */
-/*{
+/* Estilos de pagina de viajes 
+*{
     outline: solid black;
-}
-*/
-body { /* Seleccion de body */
+}*/
+/* Seleccion de body */
+body { 
     font-family: Arial, Helvetica, sans-serif; /* Cambia tipografia */
     margin: 0; /* Elimina todo  el margen predefinido */
     padding: 0; /* Elimina todo el relleno de los elementos */
@@ -52,18 +52,40 @@ section {
     color: black;
 }
 .btn {
-    background-color: white; /* Color de fondo del botón */
-    color: #007bff; /* Color del texto del botón */
+    background-color: beige; /* Color de fondo del botón */
+    color: darkcyan; /* Color del texto del botón */
     padding: 10px 20px; /* Relleno del botón */
     text-decoration: none; /* Quita decoración del enlace */
+    border-radius: 20px;
 }
 /* Estilo cuando pasa elpuntero sobre el botón */
 .btn:hover {
-    background-color: lightsteelblue;
+    background-color: lightsteelblue; /* Establece color de fondo en hover del botón */
 }
+.destinos-conteiner {
+    display: flex; /* Coloca las cajas como si fueran celdas de tablas */
+    justify-content: space-between; /* Distribuye uniformemente los elementos */
+    flex-wrap: wrap; /* Si los elementos no caben en la misma linea los ajusta en una linea aparte abajo de la otra */
+}
+.destino {
+    width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
+    margin-bottom: 20px; /* Define el margen inferior */
+    text-align: center; /* Centra el texto */
+}
+.destino img {
+    width: 100%; /* Establece el ancho de la imagen, ajustándola al contenedor */
+    border-radius: 10px; /* Redondea los bordes */
+}
+.destino h3 {
+    margin-top: 10px; /* Distancia entre imagen y h3 */
+}
+.destino p {
+    margin-top: 10px; /* Distancia superior entre h3 y p */
+}
+
 footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px 0;
+    background-color: #333; /* Establece color de fondo del footer */
+    color: #fff; /* Establece color de texto de footer */
+    text-align: center; /* Centra el texto de footer */
+    padding: 20px 0; /* Relleno del footer */
 }
