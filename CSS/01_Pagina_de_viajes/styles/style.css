@@ -7,6 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif; /* Cambia tipografia */
     margin: 0; /* Elimina todo  el margen predefinido */
     padding: 0; /* Elimina todo el relleno de los elementos */
+    background-color: beige;
 }
 /* Acá viene el estilo de una clase container */
 .container {
@@ -88,4 +89,49 @@ footer {
     color: #fff; /* Establece color de texto de footer */
     text-align: center; /* Centra el texto de footer */
     padding: 20px 0; /* Relleno del footer */
+}
+
+/* Aquí va el estilo del formulario de contacto */
+#contacto {
+    padding: 40px 0;
+}
+#contacto .container {
+    text-align: center;
+}
+#contacto h2 {
+    margin-bottom: 20px;
+}
+#contacto form {
+    max-width: 500px; /* Establece el ancho máximo de los elementos del formulario */
+    margin: 0 auto; /* Centra horizontalmente dentro del contenedor */
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1); /* Establece una sombra a la caja del formulario */
+    color: beige;
+}
+#contacto label {
+    display: block; /* Etiquetas en bloques */
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+#contacto input, #contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /* ajusta el padding y el borde del ancho */
+    background-color: beige;
+}
+#contacto textarea {
+    resize: vertical; /* Permite redimensionar el área del texto verticalmente */
+}
+#contacto button {
+    background-color: beige; /* Color de fondo del botón */
+    color: #333; /* Color del texto del botón */
+    padding: 10px 20px; /* Relleno del botón */
+    text-decoration: none; /* Quita decoración del enlace */
+    border-radius: 20px;
+    font-weight: bold;
 }
