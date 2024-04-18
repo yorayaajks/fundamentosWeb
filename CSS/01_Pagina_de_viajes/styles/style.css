@@ -76,6 +76,10 @@ section {
 .destino img {
     width: 100%; /* Establece el ancho de la imagen, ajustándola al contenedor */
     border-radius: 10px; /* Redondea los bordes */
+    transition: transform .3s
+}
+.destino img:hover {
+    transform: scale(1.08);
 }
 .destino h3 {
     margin-top: 10px; /* Distancia entre imagen y h3 */
