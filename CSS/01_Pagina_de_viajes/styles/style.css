@@ -27,6 +27,7 @@ header h1 {
 nav ul li {
     display: inline; /* Alinea lo selementos */
     margin-right: 20px; /* Margen hacia la derecha */
+    font-size: 20px;
 }
 /* Estilo a elementos de vínculo ancla de navegacion */
 nav ul li a {
@@ -63,8 +64,8 @@ section {
     border-radius: 15px;
 }
 .btn {
-    background-color: beige; /* Color de fondo del botón */
-    color: darkcyan; /* Color del texto del botón */
+    background-color: #0F0D0D; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
     padding: 10px 20px; /* Relleno del botón */
     text-decoration: none; /* Quita decoración del enlace */
     border-radius: 25px;
@@ -72,7 +73,7 @@ section {
 }
 /* Estilo cuando pasa elpuntero sobre el botón */
 .btn:hover {
-    background-color: lightsteelblue; /* Establece color de fondo en hover del botón */
+    background-color: #213049; /* Establece color de fondo en hover del botón */
 }
 .destinos-conteiner {
     display: flex; /* Coloca las cajas como si fueran celdas de tablas */
@@ -232,7 +233,7 @@ footer {
 }
 .img-popup6 {
     width: 40%;
-    background-image: url(../img/BigBen.jpg);
+    background-image: url(../img/Cusco.jpg);
     background-size: cover;
     background-position: center;
     border-top-left-radius: 16px;
@@ -240,7 +241,7 @@ footer {
 }
 .img-popup7 {
     width: 40%;
-    background-image: url(../img/TajMahal.jpeg);
+    background-image: url(../img/PlazaRoja.jpg);
     background-size: cover;
     background-position: center;
     border-top-left-radius: 16px;
@@ -256,7 +257,7 @@ footer {
 }
 .img-popup9 {
     width: 40%;
-    background-image: url(../img/BhubingPalace.jpg);
+    background-image: url(../img/IslaDePascua.jpg);
     background-size: cover;
     background-position: center;
     border-top-left-radius: 16px;
@@ -302,6 +303,8 @@ footer {
         padding: 80px;
     }
 }
+/* Aqui viene la configuracion de paquetes */
+
 
 
 
