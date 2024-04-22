@@ -79,6 +79,9 @@ section {
     justify-content: space-between; /* Distribuye uniformemente los elementos */
     flex-wrap: wrap; /* Si los elementos no caben en la misma linea los ajusta en una linea aparte abajo de la otra */
 }
+#destinos .container h2 {
+    font-size: 30px;
+}
 .destino {
     width: calc(33.33% - 20px); /* Establece el ancho de cada destino menos el espacio entre los destinos */
     margin-bottom: 20px; /* Define el margen inferior */
@@ -89,18 +92,13 @@ section {
     border-radius: 10px; /* Redondea los bordes */
     transition: transform .3s
 }
-.destino h3 {
-    font-size: 20px;
-}
 .destino img:hover {
     transform: scale(1.05);
     z-index: 0;
 }
 .destino h3 {
     margin-top: 10px; /* Distancia entre imagen y h3 */
-}
-.destino p {
-    margin-top: 10px; /* Distancia superior entre h3 y p */
+    font-size: 22px;
 }
 
 footer {
